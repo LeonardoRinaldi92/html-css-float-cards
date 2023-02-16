@@ -14,7 +14,7 @@ a[href^="mailto:"] {
 }
 
 /* presettino x clearfix */
-.clearfix {
+.clearfix::after {
     content: "";
     clear: both;
     display: table;
