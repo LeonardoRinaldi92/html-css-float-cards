@@ -1,0 +1,14 @@
+/* reset + font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive; 
+}
+
+/* presettino x clearfix */
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
