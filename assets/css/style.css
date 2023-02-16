@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Fredoka One', cursive; 
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
 }
 
 /* presettino x clearfix */
@@ -12,3 +13,22 @@
     clear: both;
     display: table;
 }
+
+/* maincontainer */
+.maincontainer {
+width: 80%;
+margin: 0 auto;
+padding: 30px;
+}
+ /* text align */
+.txt-centre{
+    text-align: center;
+}
+
+/* font size title */
+.title {
+font-size: 60px;
+font-family: 'Fredoka One', cursive;
+}
+
+
