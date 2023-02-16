@@ -20,6 +20,11 @@ a[href^="mailto:"] {
     display: table;
 }
 
+/* marginbottomgrande */
+.mb-30 {
+    margin-bottom: 30px;
+}
+
 /* maincontainer */
 .maincontainer {
 width: 80%;
@@ -36,6 +41,7 @@ padding: 30px;
 font-family: 'Fredoka One', cursive;
 }
 
+/* fontgrande */
 .bigfont {
     font-size: 60px;
 }
@@ -43,30 +49,41 @@ font-family: 'Fredoka One', cursive;
 .layout {
     width: 100%;
 }
-
-.boxphoto {
-    width:calc(100%/3);
+/* dimensione bocphoto */
+.card {
+    width:calc(100%/3 - 20px);
     background-color: black;
-    float: left;
 }
 
-.description-inbox {
+/* float left */
+.fl-left {
     float: left;
 }
-
+/* dimensione foto */
 .photo-inbox {
-    height: 100px;
-    float: left;
+    height: 100%;
 }
+
+/* padding 15px */
 .padding {
     padding: 15px;
 }
 
+/* testo bianco */
 .white{
     color: white;
 }
 
-.mb-3 { 
+/* margin bottom piccolo*/
+.mb-5{ 
     margin-bottom: 5px;
+}
 
+/* marginright */
+.mr-30 {
+    margin-right: 30px;
+}
+
+.h-100 {
+    height: 100px;
 }
