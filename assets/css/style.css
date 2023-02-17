@@ -9,7 +9,7 @@
     text-decoration: none; 
 }
 
-/* colore email */
+/* colore email */      
 a[href^="mailto:"] {
     color: rgb(81,174,192);
 }
@@ -22,8 +22,8 @@ a[href^="mailto:"] {
 }
 
 /* marginbottomgrande */
-.mb-30 {
-    margin-bottom: 50px;
+.mb-4percent {
+    margin-bottom: 4%;
 }
 
 /* maincontainer */
@@ -59,7 +59,7 @@ padding: 30px;
 
 /* card + ombre */
 .card {
-    width:calc(100%/3 - 20px);
+    width:calc(100%/3 - 2%);
     background-color: rgb(15,14,23);
     box-shadow: -1px -1px 5px 1px rgba(82, 79, 79, 0.884);
 }
@@ -90,7 +90,7 @@ padding: 30px;
 }
 
 /* marginright */
-.mr-30 {
-    margin-right: 30px;
+.mr-3 {
+    margin-right: 3%;
 }
 
